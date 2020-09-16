@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Digitmatic</title>
+
+   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+  <nav class="navbar nav-fixed" data-spy="affix">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <i class="ion-navicon"></i>
+        </button>
+        <a class="navbar-brand" href="#header">
+          <img src="images/icons/logo.jpg">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#particles-js">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Process <i class="ion-chevron-down"> </i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" onclick="modal_link_click('#m_software_dev')">Software Development</a></li>
+              <li><a href="#"  onclick="modal_link_click('#m_software_custom')">Software Customization</a></li>
+              <li><a href="#"  onclick="modal_link_click('#m_design_ux')">Design &anp; UX</a></li>
+              <li><a href="#"  onclick="modal_link_click('#m_qa')">Quality Assurance</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Site <i class="ion-chevron-down"> </i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" onclick="modal_link_click('#m_pp')">Privacy Policy</a></li>
+              <li><a href="#" onclick="modal_link_click('#m_tou')">Terms Of Use</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="banner" id="particles-js">
+      <div class="container">
+        <div class="owl-carousel">
+          <div class="item">
+            <div class="cap-wrapper">
+              <h3>Your Best Interest...</h3>
+              <p>We do not focus only your requirements but also what can be best for you once you begin with us.</p>
+            </div>
+          </div> 
+          <div class="item">
+            <div class="cap-wrapper">
+              <h3>Apps that run on anything</h3>
+              <p>Responsive Design and Development on Android and iOS.</p>
+            </div>
+          </div> 
+          <div class="item">
+            <div class="cap-wrapper">
+              <h3>Software for Results...</h3>
+              <p>Software for your expected results, per requirements and your favorite design.</p>
+            </div>
+          </div> 
+          <div class="item">
+            <div class="cap-wrapper">
+              <h3>Your Need...</h3>
+              <p>Your business goal and it's missing piece of puzzle may be us, you dream we make it true.</p>
+            </div>
+          </div> 
+          <div class="item">
+            <div class="cap-wrapper">
+              <h3>Our Priority...</h3>
+              <p>Your satisfaction is our top priority, we produce following best industry standards.</p>
+            </div>
+          </div> 
+          <div class="item">
+            <div class="cap-wrapper">
+              <h3>Your Requirement and Achievement...</h3>
+              <p>First step in software development is not just beginning development but reading your desired requirement.</p>
+            </div>
+          </div>    
+        </div>
+      </div>
+  </section>
+  <!-- End of Header -->
+  <section class="section about-us text-center" id="about-us">
+    <div class="container">
+      <h3 class="heading slideanim">Welcome to Digitmatic</h3>
+      <p class="slideanim">Digitmatic, is an IT services provider company which has skills and expertise to facilitate complex business solutions. We offer services of entire software, web development, Content Management Solutions and Creative Design from the very beginning until the end. Our overall process includes concept, design, development, incorporation, and implementation. We have a squad of experts, who are working on modern technologies and tools with vast experience to carry out web based projects, e-commerce, mobile applications and programming scripting languages like PHP, MySql, JQuery, Ajax, CSS, XHTML, Drupal CMS, CodeIgnitor, cakePhp, Smarty, Wordpress, PHPBB3, with web2.0 standards.</p>
+      <div class="btn-grp">
+        <a href="#" class="btn btn1" onclick="modal_link_click('#m_about')">More About Us</a>
+        <a href="#" class="btn btn1" onclick="modal_link_click('#m_portfolio')">Our Portfolio</a>
+      </div>
+      <div class="services">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="service-item slideanim">
+              <div class="service-icon">
+                <i class="ion-code"></i>
+              </div>
+              <div class="service-breif">
+                <h3>Software Development</h3>
+                <p>One system development methodology is not necessarily suitable for use by all projects.</p>
+                <a href="#" class="btn btn1">Read More</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-3">
+            <div class="service-item slideanim">
+              <div class="service-icon">
+                <i class="ion-android-settings"></i>
+              </div>
+              <div class="service-breif">
+                <h3>Software Customization</h3>
+                <p>Changing the functionality, workflow, and processes of the product to fit specific business needs.</p>
+                <a href="#" class="btn btn1">Read More</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-3">
+            <div class="service-item slideanim">
+              <div class="service-icon">
+                <i class="ion-paintbrush"></i>
+              </div>
+              <div class="service-breif">
+                <h3>Design &amp; UX</h3>
+                <p>Structuring is reducing information to its basic building units and then relating them to each other.</p>
+                <a href="#" class="btn btn1">Read More</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-3">
+            <div class="service-item slideanim">
+              <div class="service-icon">
+                <i class="ion-android-checkmark-circle"></i>
+              </div>
+              <div class="service-breif">
+                <h3>Quality Assurance</h3>
+                <p>Suitable quality is determined by product users, clients or customers, not by society in general.</p>
+                <a href="#" class="btn btn1">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End of Subscribe -->
+  <section id="faq" class="faq-block section">
+    <div class="container">
+      <h3 class="heading text-center">Frequently Asked Questions</h2>
+
+      <div class="collapsibles row slideanim">
+        <div class="col-md-6">
+          <a href="#faq1" data-toggle="collapse" aria-expanded="false">What is 'Software Quality Assurance'?</a>
+          <div id="faq1" class="collapse">
+            <p>
+              Software QA involves the entire software development PROCESS - monitoring and improving the process, making sure that any agreed-upon processes, standards and procedures are followed, and ensuring that problems are found and dealt with.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+           <a href="#faq2" data-toggle="collapse" aria-expanded="false">What services does Digitmatic provide?</a>
+          <div id="faq2" class="collapse">
+            <p>
+               Digitmatic works with leading organizations, worldwide, to provide them with offshore software development solutions and services. For outsourcing, we provide the following software development services:
+            </p>
+            <ul>
+              <li>Software Application Development</li>
+              <li>Web Application Development</li>
+              <li>Quality Assurance Testing</li>
+              <li>Custom Web Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-6">
+          <a href="#faq3" data-toggle="collapse" aria-expanded="false">How soon can you develop a website?</a>
+          <div id="faq3" class="collapse">
+            <p>
+              Your web site design &amp; development time frame will be determined by key 3 factors:
+            </p>
+            <ul>
+              <li>The size of your web site</li>
+              <li>The amount of graphics and complexity of your web site structure</li>
+              <li>Our current client design schedule</li>
+            </ul>
+            <p>When you/we have gathered together all of your website information (text, graphics, etc.) and are ready to begin, we will give you an estimated completion date. In general, for most small web sites upto 10 pages, you can expect delivery within 12-15 days. For larger web sites, the anticipated completion time is provided in the web-development estimate.</p>
+          </div>
+        </div>
+                 <div class="col-md-6">
+                  <a href="#faq5" data-toggle="collapse" aria-expanded="false">Does every software project need testers?</a>
+                  <div id="faq5" class="collapse">
+                    <p>
+                      While all projects will benefit from testing, some projects may not require independent test staff to succeed.
+
+        Which projects may not need independent test staff? The answer depends on the size and context of the project, the risks, the development methodology, the skill and experience of the developers, and other factors. For instance, if the project is a short-term, small, low risk project, with highly experienced programmers utilizing thorough unit testing or test-first development, then test engineers may not be required for the project to succeed.
+
+        In some cases an IT organization may be too small or new to have a testing staff even if the situation calls for it. In these circumstances it may be appropriate to instead use contractors or outsourcing, or adjust the project management and development approach (by switching to more senior developers and agile test-first development, for example). Inexperienced managers sometimes gamble on the success of a project by skipping thorough testing or having programmers do post-development functional testing of their own work, a decidedly high risk gamble.
+
+        For non-trivial-size projects or projects with non-trivial risks, a testing staff is usually necessary. As in any business, the use of personnel with specialized skills enhances an organization's ability to be successful in large, complex, or difficult tasks. It allows for both a) deeper and stronger skills and b) the contribution of differing perspectives. For example, programmers typically have the perspective of 'what are the technical issues in making this functionality work?'. A test engineer typically has the perspective of 'what might go wrong with this functionality, and how can we ensure it meets expectations?'. A technical person who can be highly effective in approaching tasks from both of those perspectives is rare, which is why, sooner or later, organizations bring in test specialists.
+                    </p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+        <div class="col-md-6">
+          <a href="#faq4" data-toggle="collapse" aria-expanded="false">Which programming language is used to produce quick, easy, quality software?</a>
+          <div id="faq4" class="collapse">
+            <p>
+              There are a large number of programming languages, and your choice will depend greatly on what kind of prior programming experience you have and what kind of software you're interested in producing. In addition, there's a lot more involved in writing good shareware than just writing software. You need to consider marketing plans, software design, registration incentives, press releases and publicity - and more. Finally, the type of computer and operating system you're writing software for will have a great effect on the available tools and languages. The answers to these questions can - and have - filled books.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section contact-us text-center slideanim" id="contact">
+    <div class="container">
+      <h3 class="heading">
+        Become a client
+      </h3>
+      <p>The best way to begin a conversation with us is through the form below. The information you provide will help us to have the most appropriate person contact you. Generally we are able to respond to inquiries within 24 hours.</p>
+      <div class="contact-form-block">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-form">
+              <form action="#">
+                <h4>Your Information</h4>
+                <div class='form-group'>
+                  <input type="text" name="name" placeholder="Name" class="material-form form-control"/>
+                </div>
+                <div class='form-group'>
+                  <input type="text" name="jobtitle" placeholder="Job Title" class="material-form form-control"/>
+                </div>
+                <div class='form-group'>
+                  <input type="text" name="number" placeholder="Number" class="material-form form-control"/>
+                </div>
+                <div class='form-group'>
+                  <input type="email" name="email" placeholder="E-mail" class="material-form form-control"/>
+                </div>
+              </form>
+
+            </div>
+          </div>
+           <div class="col-md-6">
+            <div class="contact-form">
+              <form action="#">
+                <h4>Your Company Information</h4>
+                <div class='form-group'>
+                  <input type="text" name="name" placeholder="Company Name" class="material-form form-control"/>
+                </div>
+                <div class='form-group'>
+                  <input type="text" name="jobtitle" placeholder="Website Address" class="material-form form-control"/>
+                </div>
+                <div class='form-group'>
+                  <input type="text" name="number" placeholder="Years In Business" class="material-form form-control"/>
+                </div>
+                <div class='form-group'>
+                  <div class="file-upload text-left">
+                    <input type="file" name="file" id="file" class="inputfile" />
+                    <label for="file" class="btn btn1"><i class="ion-ios-upload-outline" style="font-size: 20px"></i> Choose a file</label>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+           <div class="col-md-8 col-md-offset-2">
+            <div class="contact-form">
+              <form action="#">
+                <h4>Your Project Information</h4>
+                <div class='form-group'>
+                  <textarea name="jobtitle" rows="4" placeholder="Project Description" class="material-form form-control"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn1">Submit</button>
+                   <button type="submit" class="btn btn1">Reset</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page-section section text-center">
+    <div class="container slideanim">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="footer-links">
+            <ul class="list-inline">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#faq">FAQs</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <form>
+                <h4>Subscribe To Newsletter</h4>
+                <div class="input-group">
+                  <input type="text" class="form-control subs-input" placeholder="Enter your e-mail">
+                  <div class="input-group-btn">
+                    <button class="btn btn-first" type="submit">
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <ul class="list-inline social-links">
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          </ul>
+          <p class="contact-email">
+            Contact: <a href="linkocean005@gmail.com">linkocean005@gmail.com</a>
+          </p>
+          <hr>
+          <p class="copyright-text">&copy; Digitmatic. All rights reserved | <a href="#" onclick="modal_link_click('#m_pp')">Privacy Policy</a> | <a href="#" onclick="modal_link_click('#m_tou')">Terms Of Use</a></p>
+        </div>
+        <!-- <div class="col-lg-5 col-md-6 col-lg-offset-2">
+          <div class="row footer-links">
+            <div class="col-sm-3">
+              <a href="#home">Home</a>
+            </div>
+            <div class="col-sm-3">
+              <a href="#about-us">About Us</a>
+            </div>
+            <div class="col-sm-3">
+              <a href="#faq">FAQs</a>
+            </div>
+            <div class="col-sm-3">
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <form>
+            <h4>Subscribe To Newsletter</h4>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter your e-mail">
+              <div class="input-group-btn">
+                <button class="btn btn-first" type="submit">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+          <ul class="list-inline social-links">
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+  <div class="custom_modal" id="m_about">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+           <div class="row">
+           <div class="col-md-12">
+            <h3>About Us</h3>
+           <p>
+           <br>
+           Digitmatic, is an IT services provider company which has skills and expertise to facilitate complex business solutions. We offer services of entire software, web development, Content Management Solutions and Creative Design from the very beginning until the end. Our overall process includes concept, design, development, incorporation, and implementation. We have a squad of experts, who are working on modern technologies and tools with vast experience to carry out web based projects, e-commerce, mobile applications and programming scripting languages like PHP, MySql, JQuery, Ajax, CSS, XHTML, Drupal CMS, CodeIgnitor, cakePhp, Smarty, Wordpress, PHPBB3, with web2.0 standards.
+           </p>
+           <p>
+           </p><div class="col-md-6">
+           <ul>
+           <li>Web Design &amp; Development</li>
+           <li>E-Commerce Applications </li>
+           <li>Business Directory Development </li>
+           <li>Content Management Solutions</li>
+           <li>Search Engine Optimization</li>
+           </ul></div>
+           <div class="col-md-6">
+           <ul>
+           <li>Mobile Applications</li>
+           <li>Creative Design </li>
+           <li>Web Business</li>
+           <li>Web 2.0 Interactive Sites</li>
+           <li>Web Maintenance</li>
+           <li>Market Research</li>
+           </ul></div>
+           <br>
+           <p></p>
+           <h4>Vision &amp; Mission</h4>
+           <p>
+           Our vision is to help organizations in successful and qualitative representation of their businesses on web by truly understanding their needs followed by customized solutions for them. Our main aim is to deliver highly quality product and to maintain long lasting relationship with our clients.</p>
+           <h4>Our Management</h4>
+           <p>
+           Digitmatic is a team of experienced professionals providing a wide range of complex software and web application development services. Our energetic professionals with vast experience who are working in almost all technologies &amp; spheres of IT. We have Project managers, team lead, developer, animators, designers and usability experts who are well aware of client requirements. Our developers are highly accomplished with Object Oriented Programming and guarantee high coding standards, documentation with professional maintainability services.</p>
+           <h4>Technically Advanced</h4>
+           <p>
+           Our software development tools and products implement Object-Oriented design &amp; programming. Further, we use the most modern development tools and technologies available on the market today. We are staying on pace with the fast evolving software development capabilities and uses of multimedia and the Internet.</p>
+           <h4>Flexibility</h4>
+           <p>
+           We are custom-build to client specific requirements. We have proven to be able to react quickly and to adjust to any changes or additions thrown at us during the course of a project.</p>
+           </div>
+           </div>
+           </div>
+         </section>
+  </div>
+  <div class="custom_modal" id="m_portfolio">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+           <div class="row">
+           <div class="col-md-12">
+            <h3>Our Portfolio</h3>
+           <p>
+           <br>
+           For its lifetime Digitmatic has delivered hundreds of cost effective and high-quality software solutions for a wide range of industries and domains including consumer and business software development, e-commerce, retail, manufacturing, real estate, community services and many others.</p>
+           <p>You can review some of the projects that were successfully implemented by Digitmatic by choosing a category below. If you wish to receive more detailed information on any of the provided examples or get quotation for your project, please feel free to contact us.</p>
+           <div class="col-md-6">
+           <h4>Business Applications (Desktop)</h4>
+           <p>This desktop-based database solution allows users to track assets and skills in the aboriginal communities as well as provide search and reporting capabilities.</p>
+           <ul>
+           <li>Secure Access</li>
+           <li>Surveys and Asset Tracking</li>
+           <li>Reporting Engine</li>
+           <li>System-wide search</li>
+           <li>Export to PDF and Excel</li>
+           </ul></div>
+           <div class="col-md-6">
+           <h4>e-Commerce Solutions</h4>
+           <p>e-Commerce system, allowing students to pay their tuition fees on-line.</p>
+           <br>
+           <ul>
+           <li>On-line student and school registration</li>
+           <li>Secure Payment Processing</li>
+           <li>Search for Schools and Students</li>
+           <li>Reporting</li>
+           <li>Transactions Batch Files Downloading &amp; others</li>
+           </ul></div>
+           <div>
+           <div class="clearfix"></div>
+           <p>
+           </p><h4>
+           Web design</h4>
+           Presentation website for the company that specializes in the design and rental of exhibits for tradeshows and corporate functions. 
+           <p></p>
+           <p>
+           Promotional website for a web-based project management software.
+           </p>
+           <p>
+           Product promotion web-site with shopping cart capabilities for the Link Disguiser software application. 
+           </p>
+           </div>
+           </div>
+           </div>
+           </div>
+         </section>
+  </div>
+  <div class="custom_modal" id="m_software_dev">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+          <div class="row">
+            <h3>Software Development</h3>
+          <div class="col-md-6">
+          <p>Software development (also known as application development, software design, designing software, software application development, enterprise application development, or platform development) is the development of a software product. </p>
+          <p>The term "software development" may be used to refer to the activity of computer programming, which is the process of writing and maintaining the source code, but in a broader sense of the term it includes all that is involved between the conception of the desired software through to the final manifestation of the software, ideally in a planned and structured process.
+          </p><p> Therefore, software development may include research, new development, prototyping, modification, reuse, re-engineering, maintenance, or any other activities that result in software products Software can be developed for a variety of purposes, the three most common being to meet specific needs of a specific client/business (the case with custom software), to meet a perceived need of some set of potential users (the case with commercial and open source software), or for personal use (e.g. a scientist may write software to automate a mundane task).
+          </p>
+          </div>
+          <div class="col-md-6">
+          <p>
+          Embedded software development, that is, the development of embedded software such as used for controlling consumer products, requires the development process to be integrated with the development of the controlled physical product. The need for better quality control of the software development process has given rise to the discipline of software engineering, which aims to apply the systematic approach exemplified in the engineering paradigm to the process of software development. </p>
+          <br>
+          <h4>Software development methodology</h4>
+          <p>
+          A software development methodology is a framework that is used to structure, plan, and control the process of developing information systems. A wide variety of such frameworks have evolved over the years, each with its own recognized strengths and weaknesses. One system development methodology is not necessarily suitable for use by all projects. Each of the available methodologies is best suited to specific kinds of projects, based on various technical, organizational, project and team considerations.</p>
+          </div>
+          </div>
+           </div>
+         </section>
+  </div>
+  <div class="custom_modal" id="m_software_custom">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+           <div class="row">
+           <div class="col-md-12">
+            <h3>Softeare Customization</h3>
+           <p>
+           <br>
+           To ensure customers take full advantage of the Parallels Automation offering, Parallels works closely with them to customize the solution to a customer's specific needs.
+           </p>
+           <p>Parallels Automation customizations can involve the following:
+           <br>
+           </p><ul>
+           <li>Changing the functionality, workflow, and processes of the product to fit specific business needs</li>
+           <li>Defining the required configuration of our products.</li>
+           <li>Customizing visual aspects of the solution (colors, logos, images, layouts, screen behavior).</li>
+           <li>Adlidressing visual customization of 3rd party applications involved in the solution.</li>
+           <li>Developing additional product functionality or capabilities.</li>
+           </ul>
+           <br>
+           <p></p>
+           </div>
+           </div>
+           </div>
+         </section>
+  </div>
+  <div class="custom_modal" id="m_design_ux">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+           <div class="row">
+            <h3>Design &amp; UX</h3>
+           <div class="col-md-6">
+           <h4>Visual Design</h4>
+           Visual design, also commonly known as graphic design, communication design, or visual communication, represents the aesthetics or look-and-feel of the front end of any User Interface. Graphic treatment of interface elements is often perceived as the visual design. The purpose of visual design is to use visual elements like colors, images, and symbols to convey a message to its audience. Fundamentals of Gestalt psychology and Visual Perception give a cognitive perspective on how to create effective visual communication.Information Architecture
+           <h4>Information Architecture</h4>
+           Information architecture is the art and science of structuring and organizing the information in products and services, supporting usability and findability. More basic concepts that are attached with information architecture are described below.
+           <h4>Information</h4>
+           In the context of information architecture, information is separate from knowledge and data, but lies indefinitely in the middle. It is information of all shapes and sizes: websites, documents, software applications, images, and more. It is also concerned with metadata: terms used to describe and represent content objects such as documents, people, process, and organizations.
+           <h4>Structuring, Organization and Labeling</h4>
+           Structuring is reducing information to its basic building units and then relating them to each other. Organization involves grouping these units in a distinctive and meaningful manner. Labeling means using appropriate wording to support easy navigation and findability.
+           <br>
+           <br>
+           </div>
+           <div class="col-md-6">
+           <h4>
+           Interaction Design
+           </h4>
+           <p>
+           There are many key factors to understanding Interaction Design and how it can enable a pleasurable end User Experience. It is well recognizedclarification needed] that building great user experience requires Interaction Design to play a pivotal role in helping define what works best for the users. High demand for improved user experiences and strong focus on the end-users have made Interaction Designers critical in conceptualizing design that matches user expectations and standards of latest UI patterns and components. While working, Interaction Designers take several things in consideration. A few of them are:</p>
+           <ul>
+           <li>Create the layout of the interface</li>
+           <li>Define Interaction patterns best suited in the context</li>
+           <li>Incorporate user needs collected during User Research, into the designs</li>
+           <li>Features and Information that are important to the user</li>
+           <li>Interface behavior like drag-drop, selections, mouse over actions, and so on</li>
+           <li>Effectively communicate strengths of the system</li>
+           <li>Make the interface intuitive by building affordances</li>
+           <li>Maintain consistency throughout the system</li>
+           </ul>
+           <p>
+           In the last few years, the role of interaction designer has shifted from being just focused on specifying UI components and communicating them to the engineers to a situation now where designers have more freedom to design contextual interfaces which are based on helping meet the user needs.</p>
+           </div>
+           </div>
+           </div>
+         </section>
+  </div>
+  <div class="custom_modal" id="m_qa">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+              <h3>Quality Assurance</h3>
+            <p>
+            Quality assurance (QA) refers to administrative and procedural activities implemented in a quality system so that requirements and goals for a product, service or activity will be fulfilled. It is the systematic measurement, comparison with a standard, monitoring of processes and an associated feedback loop that confers error prevention. This can be contrasted with quality control, which is focused on process outputs.
+            </p>
+            <p>
+            Two principles included in QA are: "Fit for purpose", the product should be suitable for the intended purpose; and "Right first time", mistakes should be eliminated. QA includes management of the quality of raw materials, assemblies, products and components, services related to production, and management, production and inspection processes.[citation needed]
+            </p>
+            <p>
+            Suitable quality is determined by product users, clients or customers, not by society in general. It is not related to cost, and adjectives or descriptors such as "high" and "poor" are not applicable. For example, a low priced product may be viewed as having high quality because it is disposable, where another may be viewed as having poor quality because it is not disposable.</p>
+            </div>
+            </div>
+           </div>
+         </section>
+  </div>
+   <div class="custom_modal" id="m_pp">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+           <div class="row">
+           <div class="col-md-12">
+            <h3>Privacy Policy</h3>
+           <h4>
+           Your Information
+           </h4>
+           <p>
+           Digitmatic privacy policy covers the collection and use of personal information that may be collected by Digitmatic anytime you interact with Digitmatic such as when you purchase an Digitmatic product, contact a technical support or sales associate, sign up for an e-newsletter or request a download of demonstration software.
+           </p>
+           <p>
+           We collect your personal information because it assists us in delivering a high level of customer service. For example, your personal information helps us to keep you informed and up-to-date on the latest product updates and announcements as well as special offers that may be extended from time to time.
+           </p>
+           <p>
+           When you provide Digitmatic with your name, email address, mailing address or telephone number, and you do not "opt-out", Digitmatic and Digitmatic representatives and authorized affiliates may use the provided information to alert you to product updates, special offers, updated information, new products and other Digitmatic information. Other than Digitmatic representatives and authorized affiliates (such as value-added resellers), Digitmatic does not offer, sell, or otherwise make available any user-provided information to third parties.
+           </p>
+           <p>
+           Digitmatice will send notifications regarding product updates and technical support notices. These messages are deemed essential to the functionality of your product and as such, there is no "opt-out" available for update notifications.
+           </p>
+           <p>
+           If you do not want Digitmatic or Digitmatic representatives to contact you, you may "opt-out" at any time. You may "opt-out" by contacting Digitmatic Customer Service Department or by following the instructions included in the email correspondence.
+           </p>
+           <h4>
+           Our Web Site and Cookies
+           </h4>
+           <p>
+           Digitmatic website utilizes visitor log files or cookies as well as hosted tracking with our website. The information collected with visitor cookies and through the hosted tracking is used to gain a better understanding of which sections of our site are most important to our users as well as identify possible navigation issues. This allows us to enhance your user experience in the future. The data collected from these visitor cookies and hosted tracking does not collect any personally identifiable information and is used in aggregate form only.</p>
+           <h4>Protecting Your Personal Information</h4>
+           <p>
+           Where personal information is required, the Digitmatic website uses Secure Sockets Layer (SSL) encryption to transmit this data. This is done to prevent the loss, misuse or alteration of the information you have offered. While Digitmatic strives to protect the personal information you submit to us, no data transmission over the Internet is 100% secure. As such, onOne Software cannot guarantee or warrant the security of any information you transmit to us or from our products and you do so at your own risk. Once your information has been received by Digitmatic, we will make our best effort to ensure the safety and security on our systems.
+           </p>
+           <p>
+           At times, Digitmatic may hire other companies to provide limited services on our behalf. Such limited services include, but are not limited to, order fulfillment, direct mail services and answering customer questions about products and services. These companies will only be provided the information they need to perform the service, and they are strictly prohibited from using that information for any other purpose.
+           </p>
+           <p>
+           Digitmatic may occasionally present a special contest or promotion sponsored by another company. You may be asked to provide personal information in order to quality for this contest or promotion. If your personal information will be shared with the sponsor(s), you will be notified prior to your submission of personal information.
+           </p>
+           <p>
+           Finally, while we will make every effort to preserve the privacy of our users, at times we may be required by law to disclose personal information.
+           </p>
+           </div>
+           </div>
+           </div>
+         </section>
+  </div>
+   <div class="custom_modal" id="m_tou">
+         <section class="custom_modal_body">
+         <a href="javascript:void(0)" class="modal_close"><i class="icon ion-ios-close-outline"></i></a>
+           <div class="container">
+           <div class="row">
+           <div class="col-md-12">
+            <h3>Terms Of Use</h3>
+           <h4> General Disclaimer and Limitation of Liability</h4>
+           <p>
+           YOU EXPRESSLY AGREE THAT USE OF THE SITE IS AT YOUR SOLE RISK.</p>
+           <p>THE SITE, THE SERVICES, THE SOFTWARE AND THE INFORMATION OR MATERIALS HEREIN ARE PROVIDED ON AN "AS IS, WHERE IS, AS AVAILABLE" BASIS. MAXIMIZER MAKES NO REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS OR IMPLIED, OF ANY KIND WITH RESPECT TO THE SITE, ITS CONTENTS (INCLUDING WITHOUT LIMITATION SOFTWARE, PRODUCT DESCRIPTIONS AND PRICES) OR THE SERVICES.
+           </p>
+           <p>
+           MAXIMIZER DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE USER EXPRESSLY ACKNOWLEDGES THAT (i) THERE ARE NO WARRANTIES OR REPRESENTATIONS MADE REGARDING THE CONTENT OF THE SITE INCLUDING WITHOUT LIMITATION HOW CURRENT IT IS, ITS ACCURACY, ITS COMPLETENESS, ITS AVAILABILITY, ITS SECURITY, THAT DEFECTS WILL BE CORRECTED OR THAT THE SITE, ANY HYPERLINKED WEBSITE, OR THE SERVERS UPON WHICH THEY RESIDE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS; AND (ii) AS A SERVICE TO USERS OF THE SITE MAXIMIZER INCLUDES LINKS TO OTHER WEBSITES THAT MAXIMIZER HAS NO CONTROL OVER, AND MAKES NO ENDORSEMENTS OR REPRESENTATIONS OF ANY KIND REGARDING THE PRODUCTS, SERVICES, BUSINESS PRACTICES, CONTENT OR APPROPRIATENESS OF CONTENT ON SUCH WEBSITES, AND THE USER HEREBY IRREVOCABLY WAIVES ANY CLAIM AGAINST MAXIMIZER WITH RESPECT TO SUCH WEBSITES.
+           </p>
+           <p>
+           NONE OF MAXIMIZER OR ANY OF ITS RESPECTIVE DIRECTORS, EMPLOYEES, AGENTS, OR OTHER REPRESENTATIVES WILL BE LIABLE FOR DAMAGES, CLAIMS, EXPENSES OR OTHER COSTS (INCLUDING WITHOUT LIMITATION LEGAL FEES) ARISING OUT OF OR IN CONNECTION WITH THE USE OF, OR INABILITY TO USE, THE SITE OR ANY INFORMATION CONTAINED ON IT, ANY SOFTWARE MADE AVAILABLE TO DOWNLOAD ON THE SITE, OR ANY HYPERLINKED WEBSITE. THIS IS A COMPREHENSIVE LIMITATION OF LIABILITY THAT APPLIES TO ALL DAMAGES OF ANY KIND, INCLUDING (WITHOUT LIMITATION) COMPENSATORY, DIRECT, INDIRECT, EXEMPLARY, PUNITIVE AND CONSEQUENTIAL DAMAGES, LOSS OF USER PROGRAMS OR DATA, INCOME OR PROFIT, LOSS OR DAMAGE TO PROPERTY AND CLAIMS OF THIRD PARTIES.
+           </p>
+           <h4>
+           Security and Privacy</h4>
+           <p>
+           Maximizer strives at all times to protect the security and privacy of any information you provide over the Internet to Maximizer. However because of the inherent nature of the Internet, Maximizer cannot guarantee that this information will not be improperly accessed or used by third parties. You are submitting this information over the Internet to Maximizer at your own risk. For further information please refer to the Privacy Statement section of this Site.
+           </p>
+           <h4>
+           Product and Service Information</h4>
+           <p>
+           Maximizer may include on this Site product or service descriptions for products or services that may be featured in Maximizer advertisements. For any discrepancies between the information provided on this Site and the information in such advertisements, this website shall be determinative, subject to Maximizer's ability to correct errors and omissions at any time.
+           </p>
+           <p>
+           We cannot guarantee the availability of any products or services described on the Site. All prices shown are before any applicable tax. Maximizer reserves the right to limit quantities and to correct errors or omissions prior to processing a purchase request.
+           </p>
+           <p>While Maximizer strives to provide accurate product and pricing information, pricing or typographical errors may occur. We do not warrant the accuracy of any specifications, pricing, warranty or other product information contained in this Site and any information included is subject to change by Maximizer at any time. Without limiting the generality of any other terms and conditions on this Site, Maximizer does not accept liability for any errors or omissions which may be found on this Site or for unavailability of any product.
+           </p>
+           <h4>Indemnity</h4>
+           <p>
+           You agree to indemnify, defend and hold harmless Maximizer, its officers, directors, employees, agents, licensors, and suppliers from and against all losses, expenses, damages and costs, including reasonable attorneys' fees, resulting from any violation of these terms and conditions or any activity (including negligent or wrongful conduct) related to your use of the Site.
+           </p>
+           <h4>
+           Governing Law and Jurisdiction</h4>
+           <p>
+           The Site is controlled by Maximizer from its office within the Province of British Columbia, Canada. This Site can be accessed from all provinces and territories of Canada, as well as from other countries around the world. As each of these places has laws that may differ from those of the Province of British Columbia, Canada, by accessing this Site, you agree that all matters relating to access to, or use of, the Site, or any other hyperlinked website, shall be governed exclusively by the laws of the Province of British Columbia and the laws of Canada applicable to the Province of British Columbia, without regard to the conflicts of laws principles thereof. You also agree and hereby submit to the exclusive personal jurisdiction and venue of the courts of the Province of British Columbia and acknowledge that you do so voluntarily. You are responsible for complying with your own local laws.
+           </p>
+           <h4>General</h4>
+           <p>
+           In the event that any parts of any terms and conditions are held to be indefinite, invalid, illegal or otherwise voidable or unenforceable, the other parts of those terms and conditions will not fail on account thereof, and the balance of the terms and conditions will continue in full force and effect. The terms and conditions on the Site constitute the entire agreement between you and Maximizer governing your use of the Site. You may also be subject to other terms and conditions when you access other sites or other portions of the Site (if specified) or if you access or purchase third party content or software. The failure or delay of Maximizer in exercising any right or remedy under the terms and conditions or otherwise shall not constitute a waiver of such right or remedy. The section titles in these terms and conditions are for convenience only and have no legal or contractual effect. </p></div>
+           <p></p>
+           </div>
+           </div>
+         </section>
+  </div>
+  <!-- End of Footer -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/particles.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            animateOut: 'slideOutDown',
+            animateIn: 'lightSpeedIn',
+            items:1,
+            autoplay:true,
+        });
+    });
+    function modal_link_click(modal_id){
+        
+                    $(modal_id).addClass("is_visible").slideDown();
+                    $("body").addClass("dmodal_active");
+                  $(".modal_close").click(function(){
+                    $(modal_id).removeClass("is_visible");
+                    $("body").removeClass("dmodal_active");
+                  });
+        }
+  </script>
+</body>
+</html>
